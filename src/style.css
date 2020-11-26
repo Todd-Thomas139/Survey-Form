@@ -1,0 +1,33 @@
+ h1 {
+        color: #008080;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      body {
+        font-family: sans-serif;
+        padding-left: 20%;
+        padding-right: 20%;
+      } 
+      label {
+        font-size: 18px;
+        display: block;
+        padding-bottom: 10px;
+      }
+      form {
+        background-color: #D98880;
+        padding: 40px 40px 40px 40px;
+      }
+      .button-area2{
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+      .submit:hover {
+       background-color: #4CAF50; 
+       color: white;
+       transition-duration: 0.4s;      
+      }
